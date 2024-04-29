@@ -1,22 +1,22 @@
-# :package_description
+# Weight Convertion is package for convert weights written in php
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![Tests](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mohamedfathim/unit-conversions.svg?style=flat-square)](https://packagist.org/packages/mohamedfathim/unit-conversions)
+[![Tests](https://github.com/mohamedfathim/unit-conversions/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/mohamedfathim/unit-conversions/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/mohamedfathim/unit-conversions.svg?style=flat-square)](https://packagist.org/packages/mohamedfathim/unit-conversions)
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require mohamedfathim/unit-conversions
 ```
 
 ## Usage
 
 ```php
-$skeleton = new VendorName\Skeleton();
-echo $skeleton->echoPhrase('Hello, VendorName!');
+$skeleton = new WeightConversion\UnitConversions();
+echo $skeleton->echoPhrase('Hello, WeightConversion!');
 ```
 
 ## Testing
@@ -39,7 +39,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
--   [:author_name](https://github.com/:author_username)
+-   [Mohamed Fathi](https://github.com/MohamedFathiM)
 -   [All Contributors](../../contributors)
 
 ## License

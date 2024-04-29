@@ -1,7 +1,7 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace WeightConversion\UnitConversions;
 
-class SkeletonClass
+class UnitConversionsClass
 {
 }
