@@ -2,14 +2,12 @@
 
 namespace WeightConversion\UnitConversions;
 
-use PhpCsFixer\Fixer\PhpUnit\PhpUnitTargetVersion;
-
 class UnitConversionsClass
 {
-    public static
-    $grams;
+    public static $grams;
 
-    public static function convert($grams){
+    public static function convert($grams)
+    {
         return (new static($grams))->toKilograms();
     }
 
@@ -18,7 +16,8 @@ class UnitConversionsClass
         self::$grams = $grams;
     }
 
-    public function toKilograms() {
+    public function toKilograms()
+    {
         return self::$grams / 1000;
     }
 }
