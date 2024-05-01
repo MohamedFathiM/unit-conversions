@@ -8,5 +8,9 @@ it('can test', function () {
 
 
 it('1000 grams is equal to 1 kilogram', function () {
-    expect(UnitConversionsClass::convert(1000))->toEqual(1);
+    expect(UnitConversionsClass::convert(1000)->toKilograms())->toEqual(1);
+});
+
+it('1 grams is equal to 0.000157473 stones', function () {
+    expect(UnitConversionsClass::convert(1)->toStones())->toEqual(0.000157473);
 });

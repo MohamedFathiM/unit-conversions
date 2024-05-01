@@ -8,7 +8,7 @@ class UnitConversionsClass
 
     public static function convert($grams)
     {
-        return (new static($grams))->toKilograms();
+        return (new static($grams));
     }
 
     public function __construct($grams)
@@ -19,5 +19,10 @@ class UnitConversionsClass
     public function toKilograms()
     {
         return self::$grams / 1000;
+    }
+
+    public function toStones()
+    {
+        return self::$grams * 0.000157473;
     }
 }
