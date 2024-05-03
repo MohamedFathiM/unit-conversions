@@ -25,4 +25,9 @@ class UnitConversionsClass
     {
         return self::$grams * 0.000157473;
     }
+
+    public function toMilliGrams()
+    {
+        return self::$grams / 1000;
+    }
 }

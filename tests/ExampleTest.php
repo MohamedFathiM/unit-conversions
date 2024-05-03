@@ -14,3 +14,7 @@ it('1000 grams is equal to 1 kilogram', function () {
 it('1 grams is equal to 0.000157473 stones', function () {
     expect(UnitConversionsClass::convert(1)->toStones())->toEqual(0.000157473);
 });
+
+it('1 grams is equal to 0.001 milligrams', function () {
+    expect(UnitConversionsClass::convert(1)->toMilliGrams())->toEqual(0.001);
+});
